@@ -21,13 +21,10 @@ public class Conta {
             System.out.println("Saque realizado. O saldo da sua conta é: " + this.saldo);
         }
 
-
-        System.out.println("O Saldo da sua conta é: " + this.saldo);
-
     }
 
     public void consultarSaldo() {
-        System.out.print("Seu saldo é:  " + this.saldo);
+        System.out.println("Seu saldo é:  " + this.saldo);
     }
 
 
